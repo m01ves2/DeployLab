@@ -28,7 +28,7 @@ ThinkPad Ubuntu server
     └── SQL Server
 ```
 
-Nginx is the only public entry point in the local network. The Blazor application and API run as separate systemd services. Kestrel listens only on the server itself.
+Nginx is the only network entry point in the local network. The Blazor application and API run as separate systemd services. Kestrel listens only on the server itself.
 
 ## Learning Goals
 
@@ -51,13 +51,9 @@ A public VPS, domain name, Let's Encrypt certificate, and CI/CD are outside the 
 ## Repository Contents
 
 * `docs/` — architecture notes, setup instructions, deployment runbook, and troubleshooting notes.
-* `scripts/` — repeatable publish and deployment scripts.
-* `nginx/` — Nginx configuration templates.
-* `systemd/` — systemd service unit templates.
-* `config/` — safe configuration examples without secrets.
 
 No passwords, JWT keys, production connection strings, or published application files are committed to this repository.
 
 ## Status
 
-In progress.
+Completed.
