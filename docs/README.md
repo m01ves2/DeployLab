@@ -14,7 +14,7 @@
 | `docs/Troubleshooting.md` | Короткая диагностика «сайт не открывается / Blazor не видит API / SQL не стартовал / где читать логи». |
 | `docs/DeploymentGuide.md` | Подробный учебник: systemd, Docker, Nginx, Data Protection, зависимости и причины решений. |
 | `docs/UpdateGuide.md` | Подробный учебник обновления и rollback. |
-
+| `docs/DeploymentTutorial.md` | Линейное учебное повторение всего пути от кода на Desktop до работающего сайта на ThinkPad. |
 
 ## Scope
 
